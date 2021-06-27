@@ -2,17 +2,60 @@
     margin: 0%;
     padding: 0%;
 }
-.background{
-    background-color: rgb(104, 100, 100);
+main{
+    background-color:rgb(104, 100, 100);
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
-.card ul li a{
-    float: right;
-    margin-top: 50px;
+ .text-center{
+     color:white;
+    text-align: center;
+    font-family: 'modak', cursive;
+}
+.my-1{
+    margin: 5px 0;
+}
+.first-card{
+    padding: 2vh;
+    left: 0%;
+    position: absolute;
+    top: 103vh;
+    color:white;
 }
 
-
-
-
+.second-card{
+    padding: 2vh;
+    left: 16%;
+    position: absolute;
+    top: 103vh;
+    color:white;
+}
+.third-card{
+    padding: 2vh;
+    left: 33%;
+    position: absolute;
+    top: 103vh;
+    color:white;
+}
+.forth-card{
+    padding: 2vh;
+    left: 50%;
+    position: absolute;
+    top: 103vh;
+    color:white;
+}
+.fifth-card{
+    padding: 2vh;
+    left: 67%;
+    position: absolute;
+    top: 103vh;
+    color:white;
+}
+.sixth-card{
+    padding: 2vh;
+    left: 84%;
+    position: absolute;
+    top: 103vh;
+    color:white;
+}

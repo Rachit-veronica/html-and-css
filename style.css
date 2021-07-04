@@ -1,20 +1,26 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     font-family: century Gothic;
-
 }
+html, body{
+            height: 100%;
+    }
+
 header{
     background-image: url("https://source.unsplash.com/user/erondu/1600x900");
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .logo ul li a{
-    margin-right: 115vh;
+    position: absolute;
+    top: 0%;
+    left: 0%;
  }
 ul{
-   
     float: right ;
     list-style-type: none;
     margin-top: 25px;
@@ -39,25 +45,63 @@ ul li.active a{
 }
 .flex-all-center{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+
 }
 .neg{
     max-width: 1300px;
     margin: auto;
-}
-.title{
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    font-size: 1.2cm;
-    color:orange;
+} 
 
-}
-.main{
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    top: 65%;
-    left: 20%;
+    margin:auto;
+    right: 0;
+    left: 0;
+    bottom: 50%;
+    font-size: 0.8cm;
+    color:orange;
+}
+
+.box{
+   position: absolute;
+   top: 70%;
+   left: 50%;
+   width: 500px;
+   transform: translate(-50%,-50%);
+}
+.box input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.box input[type="text"]{
+    background: #fff;
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+.box input[type="submit"]{
+    position:relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color:#fff;
 }
 .main input{
     height: 50px;
@@ -80,4 +124,4 @@ ul li.active a{
 }
 .button input:hover{
     background-color:rgba(255, 111, 0, 0.679);
-}
+} 

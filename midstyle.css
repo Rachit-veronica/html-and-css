@@ -17,45 +17,16 @@ main{
     margin: 5px 0;
 }
 .first-card{
-    padding: 2vh;
-    left: 0%;
     position: absolute;
-    top: 103vh;
+    left: 20%;
+    top: 150vh;
+    transform: translate(-50%,-50%);
     color:white;
 }
-
 .second-card{
-    padding: 2vh;
-    left: 16%;
     position: absolute;
-    top: 103vh;
-    color:white;
-}
-.third-card{
-    padding: 2vh;
-    left: 33%;
-    position: absolute;
-    top: 103vh;
-    color:white;
-}
-.forth-card{
-    padding: 2vh;
-    left: 50%;
-    position: absolute;
-    top: 103vh;
-    color:white;
-}
-.fifth-card{
-    padding: 2vh;
-    left: 67%;
-    position: absolute;
-    top: 103vh;
-    color:white;
-}
-.sixth-card{
-    padding: 2vh;
-    left: 84%;
-    position: absolute;
-    top: 103vh;
+    left: 72%;
+    top: 150vh;
+    transform: translate(-50%,-50%);
     color:white;
 }

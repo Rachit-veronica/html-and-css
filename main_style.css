@@ -1,0 +1,40 @@
+.contain{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;      
+}
+.middle{
+    width: 100%;
+    background-color: rgb(73, 77, 77);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+.contain-card{
+    display: inline-block;
+    flex-basis: 31%;
+    text-align: center;
+    border: 3px solid black;
+    width: fit-content;
+    margin:12px;
+    color:white;
+}
+.text-center{
+    color:white;
+}
+@media(max-width: 700px){
+     .contain{
+         font-size: 11px;
+     }
+     .contain-card{
+        margin-left: 9px;
+        width: 150px;
+     }
+     .contain-card img{
+         width: 144px;
+     }
+}
